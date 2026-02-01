@@ -2,7 +2,7 @@ import psycopg2
 import os
 from werkzeug.security import generate_password_hash
 
-DATABASE_URL = 'postgresql://postgres:Man6250173849@db.qevykzfsztyzzgneftqe.supabase.co:5432/postgres'
+DATABASE_URL = 'postgresql://neondb_owner:npg_5CuncYjT9sol@ep-shiny-silence-a1iwyfl7-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
 
 def init_database():
     conn = psycopg2.connect(DATABASE_URL)
