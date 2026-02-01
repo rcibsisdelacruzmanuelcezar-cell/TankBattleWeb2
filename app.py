@@ -16,7 +16,7 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 
-DATABASE_URL = 'postgresql://postgres:Man6250173849@db.qevykzfsztyzzgneftqe.supabase.co:5432/postgres'
+DATABASE_URL = 'postgresql://neondb_owner:npg_5CuncYjT9sol@ep-shiny-silence-a1iwyfl7-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
 
 def get_db_connection():
     conn = psycopg2.connect(DATABASE_URL)
