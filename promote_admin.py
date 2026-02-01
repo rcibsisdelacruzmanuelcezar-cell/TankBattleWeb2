@@ -2,7 +2,7 @@ import psycopg2
 import os
 import sys
 
-DATABASE_URL = 'postgresql://postgres:1234567890@localhost:5432/TankBattleWeb'
+DATABASE_URL = 'postgresql://neondb_owner:npg_5CuncYjT9sol@ep-shiny-silence-a1iwyfl7-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
 
 def promote_user_to_admin(username):
     conn = psycopg2.connect(DATABASE_URL)
